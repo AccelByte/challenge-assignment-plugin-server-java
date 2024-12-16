@@ -1,0 +1,10 @@
+app:
+  namespace: test
+plugin:
+  grpc:
+    server:
+      interceptor:
+        debug-logger:
+          enabled: false
+        auth:
+          enabled: false
